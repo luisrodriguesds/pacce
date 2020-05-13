@@ -1,0 +1,4 @@
+<div id="PageHeader">
+	<h2>Sobre o PACCE</h2>
+</div>
+<script src="https://doity.com.br/js/box_inscricao.js" type="text/javascript"></script> <iframe scrolling="0" id="iframe-inscricao" onload="iframeResizer(event)" style="width: 100%;height: 500px;border: none;" src="https://doity.com.br/oficinas-de-aprendizagem-cooperativa/passo1?box=1"> </iframe> <p style="text-align:center; color:#666672; font-size:14px; font-family:'Open Sans',Helvetica, Arial, sans-serif; font-weight:bolder;"> Caso n&atilde;o consiga fazer a inscri&ccedil;&atilde;o <a target="_blank" href="https://doity.com.br/oficinas-de-aprendizagem-cooperativa">clique aqui </a> </p>         

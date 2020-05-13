@@ -1,0 +1,24 @@
+$(function(){
+	/*
+	$(".int-disp-open").click(function(){
+		$(this).siblings("#Interacoes-disponiveis").toggle("slow");
+	});
+	$(".int-hist-open").click(function(){
+		$(this).siblings("#int-hist").toggle("slow");
+	});
+	*/
+	$(".responsivo").click(function(){
+		$(this).siblings("#mostra-nav").toggle("slow");
+	});
+	$(".responsivo").click(function(){
+		$(this).siblings("#social").toggle("slow");
+	});
+	/*
+	$(".coment-edit").click(function(){
+		$(this).siblings("#show-edit").toggle("slow");
+	});
+	$(".send-post-open").click(function(){
+		$(this).siblings("#form-post").toggle("slow");
+	});
+*/
+});
