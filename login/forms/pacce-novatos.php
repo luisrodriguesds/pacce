@@ -171,7 +171,7 @@
       $add['periodo'] = $periodo;
 
       //GERARDOR DE NPACCE
-      $bolsistas    = DBread('bolsistas', "WHERE tipoSlug != 'ceo' ORDER BY npacce DESC LIMIT 1", "npacce");
+      $bolsistas    = DBread('bolsistas', "WHERE npacce LIKE '%B%' ORDER BY npacce DESC LIMIT 1", "npacce");
       if (substr($bolsistas[0]['npacce'], 0, 3) == 'B'.date('y')) {
         $npacce     = str_replace("B", "", $bolsistas[0]['npacce']);
         $npacce     = $npacce + 1;
